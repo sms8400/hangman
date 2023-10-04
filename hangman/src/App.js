@@ -9,7 +9,7 @@ import { showNotification as show, checkWin } from './helpers/helpers';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard', 'Abundance', 'Bold', 'Challenge', 'Zebra', 'Xray', 'Thrive', 'JavaScript', 'React', 'Java', 'Python', 'Persistance' ];
+const words = ['application', 'programming', 'interface', 'wizard', 'abundance', 'bold', 'challenge', 'zebra', 'xray', 'thrive', 'javascript', 'react', 'java', 'python', 'persistance' ];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
